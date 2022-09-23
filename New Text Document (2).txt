@@ -1,0 +1,677 @@
+
+C:\Program Files\Git>cd C:\Users\evked\Desktop\УчёБа
+
+C:\Users\evked\Desktop\УчёБа>git clone https://github.com/TankDmitrieva/1.git
+Cloning into '1'...
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 20 (delta 2), reused 4 (delta 1), pack-reused 0
+Receiving objects: 100% (20/20), 4.42 KiB | 2.21 MiB/s, done.
+Resolving deltas: 100% (2/2), done.
+
+C:\Users\evked\Desktop\УчёБа>cd C:\Users\evked\Desktop\УчёБа\1
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\evked\Desktop\УчёБа\1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is F697-CEC8
+
+ Directory of C:\Users\evked\Desktop\УчёБа\1
+
+23.09.2022  22:56    <DIR>          .
+23.09.2022  22:56    <DIR>          ..
+23.09.2022  22:56                20 . gitignore
+23.09.2022  22:56                14 New Text Document.txt
+23.09.2022  22:56                48 README.md
+               3 File(s)             82 bytes
+               2 Dir(s)  148 054 384 640 bytes free
+
+C:\Users\evked\Desktop\УчёБа\1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is F697-CEC8
+
+ Directory of C:\Users\evked\Desktop\УчёБа\1
+
+23.09.2022  22:59    <DIR>          .
+23.09.2022  22:59    <DIR>          ..
+23.09.2022  22:56                20 . gitignore
+23.09.2022  22:59                 0 New Text Document (2).txt
+23.09.2022  22:56                14 New Text Document.txt
+23.09.2022  22:56                48 README.md
+               4 File(s)             82 bytes
+               2 Dir(s)  148 054 257 664 bytes free
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        New Text Document (2).txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\evked\Desktop\УчёБа\1>git add .
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   New Text Document (2).txt
+
+
+C:\Users\evked\Desktop\УчёБа\1>git commit -m "A new file is added"
+[master aa0a4d2] A new file is added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 New Text Document (2).txt
+
+C:\Users\evked\Desktop\УчёБа\1>git pull
+Already up to date.
+
+C:\Users\evked\Desktop\УчёБа\1>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 269 bytes | 269.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/TankDmitrieva/1.git
+   f5963a5..aa0a4d2  master -> master
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\evked\Desktop\УчёБа\1>git add .
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   New Text Document.txt
+
+
+C:\Users\evked\Desktop\УчёБа\1>git push
+Everything up-to-date
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   New Text Document.txt
+
+
+C:\Users\evked\Desktop\УчёБа\1>git pull
+Already up to date.
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   New Text Document.txt
+
+
+C:\Users\evked\Desktop\УчёБа\1>git add .
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   New Text Document.txt
+        modified:   README.md
+
+
+C:\Users\evked\Desktop\УчёБа\1>git add .
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   New Text Document.txt
+        modified:   README.md
+
+
+C:\Users\evked\Desktop\УчёБа\1>git log
+commit aa0a4d20e605f0f83bd13a3b8e909c258df5cdd6 (HEAD -> master, origin/master, origin/HEAD)
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 23:00:48 2022 +0300
+
+    A new file is added
+
+commit f5963a593eb29a1eb37066bb8e67d2005fb2a4e1
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 22:45:37 2022 +0300
+
+    Update New Text Document.txt
+
+commit 9dc3f575198c90d5efdf62590f11a60b74322774
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 22:34:41 2022 +0300
+
+    Update New Text Document.txt
+
+commit b1418fc9093ed80ded09b605e40e4bdec21843e7
+Merge: 6de2a7f 2a583a6
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 22:27:49 2022 +0300
+
+    Merge branch 'master' of https://github.com/TankDmitrieva/1
+
+commit 6de2a7f5919ba8112390d516390c178c311169a2
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 22:10:21 2022 +0300
+
+    A new file is added
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 23:00:48 2022 +0300
+
+    A new file is added
+
+commit f5963a593eb29a1eb37066bb8e67d2005fb2a4e1
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 22:45:37 2022 +0300
+
+    Update New Text Document.txt
+
+commit 9dc3f575198c90d5efdf62590f11a60b74322774
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 22:34:41 2022 +0300
+
+    Update New Text Document.txt
+
+commit b1418fc9093ed80ded09b605e40e4bdec21843e7
+Merge: 6de2a7f 2a583a6
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 22:27:49 2022 +0300
+
+    Merge branch 'master' of https://github.com/TankDmitrieva/1
+
+commit 6de2a7f5919ba8112390d516390c178c311169a2
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 22:10:21 2022 +0300
+
+    A new file is added
+
+commit 2a583a605cee45e5bcc7a1a612aa0c3d4e16ff73
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 22:00:59 2022 +0300
+
+    Delete текстовойфайл.txt
+
+commit 21c0fb3f800f015fe8aac8b2ee58f6c1651cf606
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 21:46:25 2022 +0300
+
+    Create текстовойфайл.txt
+
+commit 13af927ce6605d67c829c95b090cc2e8574b1f42
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 21:30:29 2022 +0300
+
+    Create . gitignore
+
+commit 3b0e5392c87a8e788021b51bc65892aa6b9f106e
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Thu Sep 22 17:01:08 2022 +0300
+
+    Initial commit
+...skipping...
+
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MOVING
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or N lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or N lines).
+  f  ^F  ^V  SPACE  *  Forward  one window (or N lines).
+  b  ^B  ESC-v      *  Backward one window (or N lines).
+  z                 *  Forward  one window (and set window to N).
+  w                 *  Backward one window (and set window to N).
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.
+  d  ^D             *  Forward  one half-window (and set half-window to N).
+  u  ^U             *  Backward one half-window (and set half-window to N).
+  ESC-)  RightArrow *  Right one half screen width (or N positions).
+  ESC-(  LeftArrow  *  Left  one half screen width (or N positions).
+  ESC-}  ^RightArrow   Right to last column displayed.
+  ESC-{  ^LeftArrow    Left  to first column.
+  F                    Forward forever; like "tail -f".
+  ESC-F                Like F but stop when search pattern is found.
+  r  ^R  ^L            Repaint screen.
+  R                    Repaint screen, discarding buffered input.
+        ---------------------------------------------------
+        Default "window" is the screen height.
+        Default "half-window" is half of the screen height.
+ ---------------------------------------------------------------------------
+
+                          SEARCHING
+
+  /pattern          *  Search forward for (N-th) matching line.
+  ?pattern          *  Search backward for (N-th) matching line.
+  n                 *  Repeat previous search (for N-th occurrence).
+  N                 *  Repeat previous search in reverse direction.
+  ESC-n             *  Repeat previous search, spanning files.
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.
+  ESC-u                Undo (toggle) search highlighting.
+  ESC-U                Clear search highlighting.
+  &pattern          *  Display only matching lines.
+        ---------------------------------------------------
+        A search pattern may begin with one or more of:
+        ^N or !  Search for NON-matching lines.
+        ^E or *  Search multiple files (pass thru END OF FILE).
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).
+        ^K       Highlight matches, but don't move (KEEP position).
+        ^R       Don't use REGULAR EXPRESSIONS.
+        ^W       WRAP search if no match found.
+ ---------------------------------------------------------------------------
+
+                           JUMPING
+
+HELP -- Press RETURN for more, or q when done...skipping...
+commit 6de2a7f5919ba8112390d516390c178c311169a2
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 22:10:21 2022 +0300
+
+    A new file is added
+
+commit 2a583a605cee45e5bcc7a1a612aa0c3d4e16ff73
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 22:00:59 2022 +0300
+
+    Delete текстовойфайл.txt
+
+commit 21c0fb3f800f015fe8aac8b2ee58f6c1651cf606
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 21:46:25 2022 +0300
+
+    Create текстовойфайл.txt
+
+commit 13af927ce6605d67c829c95b090cc2e8574b1f42
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 21:30:29 2022 +0300
+
+    Create . gitignore
+
+commit 3b0e5392c87a8e788021b51bc65892aa6b9f106e
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Thu Sep 22 17:01:08 2022 +0300
+
+    Initial commit
+(END)
+commit 6de2a7f5919ba8112390d516390c178c311169a2
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 22:10:21 2022 +0300
+
+    A new file is added
+
+commit 2a583a605cee45e5bcc7a1a612aa0c3d4e16ff73
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 22:00:59 2022 +0300
+
+    Delete текстовойфайл.txt
+
+commit 21c0fb3f800f015fe8aac8b2ee58f6c1651cf606
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 21:46:25 2022 +0300
+
+    Create текстовойфайл.txt
+
+commit 13af927ce6605d67c829c95b090cc2e8574b1f42
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 21:30:29 2022 +0300
+
+    Create . gitignore
+
+commit 3b0e5392c87a8e788021b51bc65892aa6b9f106e
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Thu Sep 22 17:01:08 2022 +0300
+
+    Initial commit
+(END)
+commit 6de2a7f5919ba8112390d516390c178c311169a2
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 22:10:21 2022 +0300
+
+    A new file is added
+
+commit 2a583a605cee45e5bcc7a1a612aa0c3d4e16ff73
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 22:00:59 2022 +0300
+
+    Delete текстовойфайл.txt
+
+commit 21c0fb3f800f015fe8aac8b2ee58f6c1651cf606
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 21:46:25 2022 +0300
+
+    Create текстовойфайл.txt
+
+commit 13af927ce6605d67c829c95b090cc2e8574b1f42
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 21:30:29 2022 +0300
+
+    Create . gitignore
+
+commit 3b0e5392c87a8e788021b51bc65892aa6b9f106e
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Thu Sep 22 17:01:08 2022 +0300
+
+    Initial commit
+...skipping...
+
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MOVING
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or N lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or N lines).
+  f  ^F  ^V  SPACE  *  Forward  one window (or N lines).
+  b  ^B  ESC-v      *  Backward one window (or N lines).
+  z                 *  Forward  one window (and set window to N).
+  w                 *  Backward one window (and set window to N).
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.
+  d  ^D             *  Forward  one half-window (and set half-window to N).
+  u  ^U             *  Backward one half-window (and set half-window to N).
+  ESC-)  RightArrow *  Right one half screen width (or N positions).
+  ESC-(  LeftArrow  *  Left  one half screen width (or N positions).
+  ESC-}  ^RightArrow   Right to last column displayed.
+  ESC-{  ^LeftArrow    Left  to first column.
+  F                    Forward forever; like "tail -f".
+  ESC-F                Like F but stop when search pattern is found.
+  r  ^R  ^L            Repaint screen.
+  R                    Repaint screen, discarding buffered input.
+HELP -- Press RETURN for more, or q when done...skipping...
+commit 6de2a7f5919ba8112390d516390c178c311169a2
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 22:10:21 2022 +0300
+
+    A new file is added
+
+commit 2a583a605cee45e5bcc7a1a612aa0c3d4e16ff73
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 22:00:59 2022 +0300
+
+    Delete текстовойфайл.txt
+
+commit 21c0fb3f800f015fe8aac8b2ee58f6c1651cf606
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 21:46:25 2022 +0300
+
+    Create текстовойфайл.txt
+
+commit 13af927ce6605d67c829c95b090cc2e8574b1f42
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 21:30:29 2022 +0300
+
+    Create . gitignore
+
+commit 3b0e5392c87a8e788021b51bc65892aa6b9f106e
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Thu Sep 22 17:01:08 2022 +0300
+
+    Initial commit
+
+C:\Users\evked\Desktop\УчёБа\1>git log
+commit aa0a4d20e605f0f83bd13a3b8e909c258df5cdd6 (HEAD -> master, origin/master, origin/HEAD)
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 23:00:48 2022 +0300
+
+    A new file is added
+
+commit f5963a593eb29a1eb37066bb8e67d2005fb2a4e1
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 22:45:37 2022 +0300
+
+    Update New Text Document.txt
+
+commit 9dc3f575198c90d5efdf62590f11a60b74322774
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 22:34:41 2022 +0300
+
+    Update New Text Document.txt
+
+commit b1418fc9093ed80ded09b605e40e4bdec21843e7
+Merge: 6de2a7f 2a583a6
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 22:27:49 2022 +0300
+
+    Merge branch 'master' of https://github.com/TankDmitrieva/1
+
+commit 6de2a7f5919ba8112390d516390c178c311169a2
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 22:10:21 2022 +0300
+
+...skipping...
+
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MOVING
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or N lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or N lines).
+  f  ^F  ^V  SPACE  *  Forward  one window (or N lines).
+  b  ^B  ESC-v      *  Backward one window (or N lines).
+  z                 *  Forward  one window (and set window to N).
+  w                 *  Backward one window (and set window to N).
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.
+  d  ^D             *  Forward  one half-window (and set half-window to N).
+  u  ^U             *  Backward one half-window (and set half-window to N).
+  ESC-)  RightArrow *  Right one half screen width (or N positions).
+  ESC-(  LeftArrow  *  Left  one half screen width (or N positions).
+  ESC-}  ^RightArrow   Right to last column displayed.
+  ESC-{  ^LeftArrow    Left  to first column.
+  F                    Forward forever; like "tail -f".
+  ESC-F                Like F but stop when search pattern is found.
+  r  ^R  ^L            Repaint screen.
+  R                    Repaint screen, discarding buffered input.
+        ---------------------------------------------------
+        Default "window" is the screen height.
+        Default "half-window" is half of the screen height.
+ ---------------------------------------------------------------------------
+
+                          SEARCHING
+
+  /pattern          *  Search forward for (N-th) matching line.
+  ?pattern          *  Search backward for (N-th) matching line.
+  n                 *  Repeat previous search (for N-th occurrence).
+  N                 *  Repeat previous search in reverse direction.
+  ESC-n             *  Repeat previous search, spanning files.
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.
+  ESC-u                Undo (toggle) search highlighting.
+  ESC-U                Clear search highlighting.
+  &pattern          *  Display only matching lines.
+        ---------------------------------------------------
+        A search pattern may begin with one or more of:
+        ^N or !  Search for NON-matching lines.
+        ^E or *  Search multiple files (pass thru END OF FILE).
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).
+        ^K       Highlight matches, but don't move (KEEP position).
+        ^R       Don't use REGULAR EXPRESSIONS.
+        ^W       WRAP search if no match found.
+ ---------------------------------------------------------------------------
+
+                           JUMPING
+
+HELP -- Press RETURN for more, or q when done...skipping...
+commit aa0a4d20e605f0f83bd13a3b8e909c258df5cdd6 (HEAD -> master, origin/master, origin/HEAD)
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 23:00:48 2022 +0300
+
+    A new file is added
+
+commit f5963a593eb29a1eb37066bb8e67d2005fb2a4e1
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 22:45:37 2022 +0300
+
+    Update New Text Document.txt
+
+commit 9dc3f575198c90d5efdf62590f11a60b74322774
+Author: TankDmitrieva <113844576+TankDmitrieva@users.noreply.github.com>
+Date:   Fri Sep 23 22:34:41 2022 +0300
+
+    Update New Text Document.txt
+
+commit b1418fc9093ed80ded09b605e40e4bdec21843e7
+Merge: 6de2a7f 2a583a6
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 22:27:49 2022 +0300
+
+    Merge branch 'master' of https://github.com/TankDmitrieva/1
+
+commit 6de2a7f5919ba8112390d516390c178c311169a2
+Author: unknown <panther2235@yandex.ru>
+Date:   Fri Sep 23 22:10:21 2022 +0300
+
+
+C:\Users\evked\Desktop\УчёБа\1>git rm New Text Document.txt
+fatal: pathspec 'New' did not match any files
+
+C:\Users\evked\Desktop\УчёБа\1>git rm New Text Document.txt
+fatal: pathspec 'New' did not match any files
+
+C:\Users\evked\Desktop\УчёБа\1>git rm "New Text Document.txt"
+error: the following file has changes staged in the index:
+    New Text Document.txt
+(use --cached to keep the file, or -f to force removal)
+
+C:\Users\evked\Desktop\УчёБа\1>git rm "New Text Document.txt" -f
+rm 'New Text Document.txt'
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    New Text Document.txt
+        modified:   README.md
+
+
+C:\Users\evked\Desktop\УчёБа\1>git push
+Everything up-to-date
+
+C:\Users\evked\Desktop\УчёБа\1>git pull
+Already up to date.
+
+C:\Users\evked\Desktop\УчёБа\1>git push
+Everything up-to-date
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    New Text Document.txt
+        modified:   README.md
+
+
+C:\Users\evked\Desktop\УчёБа\1>git commit -m "A file has been removed"
+[master 395dffb] A file has been removed
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+ delete mode 100644 New Text Document.txt
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\evked\Desktop\УчёБа\1>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 338 bytes | 338.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/TankDmitrieva/1.git
+   aa0a4d2..395dffb  master -> master
+
+C:\Users\evked\Desktop\УчёБа\1>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\evked\Desktop\УчёБа\1>
